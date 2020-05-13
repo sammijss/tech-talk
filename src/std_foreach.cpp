@@ -31,7 +31,7 @@ int main()
 {
 	std::vector<int> vec = {1, 2, 3, 4, 5};
 	cout <<"Elements of vector are: " <<endl;
-	for_each(std::begin(vec), std::end(vec), [](int x) { cout <<x <<" "; } );
+	std::for_each(std::begin(vec), std::end(vec), [](int x) { cout <<x <<" "; } );
 	cout <<endl;
 	return(0);
 }
