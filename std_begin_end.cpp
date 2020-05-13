@@ -12,7 +12,7 @@ int main()
 	std::vector<int> vec = {1, 2, 3, 4, 5};
 
 	/* Traditional Way To Access The STL Container */
-	cout <<"Access the vector with vector container begin() and end() function." <<endl;
+	cout <<"Access the vector with container begin() and end() function." <<endl;
 	for (auto it = vec.begin(); it != vec.end(); ++it) {
 		cout <<*it <<" ";
 	}

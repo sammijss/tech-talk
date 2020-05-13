@@ -21,4 +21,5 @@ int main()
 	/* C++11 way of using std::function<> for function pointer */
 	std::function<int(int, int)> funcptr2 = sum;
 	cout <<"Sum of (1+2): " <<funcptr2(1, 2) <<endl;
+	return(0);
 }

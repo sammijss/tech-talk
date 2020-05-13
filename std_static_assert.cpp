@@ -18,6 +18,7 @@ int main()
 {
 	cout <<"Calling func2..." <<endl;
 	func(NULL);
+	return(0);
 }
 #endif
 
@@ -33,6 +34,7 @@ int main()
 {
 	cout <<"Calling func..." <<endl;
 	func(NULL);
+	return(0);
 }
 #endif
 
@@ -50,5 +52,6 @@ int main()
 {
 	//func<int>(2);
 	func<std::string>("Hello");
+	return(0);
 }
 #endif

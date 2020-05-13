@@ -17,7 +17,7 @@ int main()
 	for(auto var : array) {
 		cout <<var <<" ";
 	}
-	return 0;
+	return(0);
 }
 #endif
 
@@ -33,5 +33,6 @@ int main()
 	cout <<"Elements of vector are: " <<endl;
 	for_each(std::begin(vec), std::end(vec), [](int x) { cout <<x <<" "; } );
 	cout <<endl;
+	return(0);
 }
 #endif

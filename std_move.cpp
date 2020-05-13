@@ -15,6 +15,7 @@ int main()
 
 	str.back(); // undefined behavior if size() == 0: back() has a precondition !empty()
 	str.clear(); // OK, clear() has no preconditions
+	return(0);
 }
 #endif
 
@@ -64,5 +65,6 @@ int main()
 	}
 
 	obj.Display();
+	return(0);
 }
 #endif
